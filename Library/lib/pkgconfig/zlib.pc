@@ -1,0 +1,13 @@
+prefix=C:/Users/kollu/anaconda3/envs/vbjax-dev/Library
+exec_prefix=C:/Users/kollu/anaconda3/envs/vbjax-dev/Library
+libdir=C:/Users/kollu/anaconda3/envs/vbjax-dev/Library/lib
+sharedlibdir=C:/Users/kollu/anaconda3/envs/vbjax-dev/Library/lib
+includedir=C:/Users/kollu/anaconda3/envs/vbjax-dev/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
